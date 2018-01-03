@@ -110,6 +110,22 @@
             {
               "name": "FUNCTIONS_EXTENSION_VERSION",
               "value": "~1"
+            },
+            {
+              "name": "SPEECH_APP_REGION",
+              "value": "Global"
+            },
+            {
+              "name": "SPEECH_SUB_KEY",
+              "value": "[listKeys(resourceId('Microsoft.CognitiveServices/accounts', variables('speechServiceName')),'2017-04-18').key1]"
+            },
+            {
+              "name": "LUIS_APP_REGION",
+              "value": "West US"
+            },
+            {
+              "name": "LUIS_SUB_KEY",
+              "value": "[listKeys(resourceId('Microsoft.CognitiveServices/accounts', variables('luisServiceName')),'2017-04-18').key1]"
             }
           ]
         }
